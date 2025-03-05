@@ -1,0 +1,56 @@
+body {
+    background-color: #c8f6bd; }
+h1 {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #1d3474;
+    padding: .5rem;
+    text-align: center;
+    text-transform: uppercase; }
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #28611e;
+    background-color: #a4e2fa;
+    padding: .75rem; }
+p {
+    color:#28611e;
+    margin: 1rem;
+    line-height: 1.5rem; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px; }
+ol {
+    color:#28611e;
+    margin: 1rem;
+    line-height: 1.5rem; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px; }
+ul {
+    color:#28611e;
+    margin: 1rem;
+    line-height: 1.5rem; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 17px;}
+img {
+    border: 3px #a4e2fa solid;
+    margin: .5rem;
+    max-width: 100%; }
+figcaption {
+    color:#28611e;
+    margin: .5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px; }
+hr {
+    border: 2px dashed #1d3474 }
+a:link {
+    color: #1d0896;
+    text-decoration: none; }
+a:visited {
+    color:  #64178a; }
+a:hover {
+    color: #ba0707;
+    text-decoration: underline; }
+a:active {
+    color: #d046c7; }
