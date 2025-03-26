@@ -1,0 +1,6 @@
+li {
+    display: inline-block; 
+    border: 2px black solid;
+    margin: 20px;
+    padding: 10px; 
+    height: 20px; }
