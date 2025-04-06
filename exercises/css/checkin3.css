@@ -1,12 +1,13 @@
 body {
     margin: 0px; 
+    height: 100%; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 .wrapper {
     display: grid; 
     grid-template-columns: 1fr;
     grid-template-rows: auto 3fr 3fr; 
-    min-height: 100vh; }
+    min-height: 100%; }
 
 .row1 {
     height: 100px;
