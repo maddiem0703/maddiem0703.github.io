@@ -1,12 +1,3 @@
-@media (max-width: 768px) {
-    .wrapper {
-        grid-template-columns: 1fr; 
-        grid-template-rows: auto auto auto; } 
-    .row2 {
-        grid-template-columns: 1fr; }
-    .row3 {
-        grid-template-columns: 1fr; } }
-
 body {
     margin: 0px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
