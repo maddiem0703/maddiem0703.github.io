@@ -1,0 +1,55 @@
+/*Responsive layout*/
+body {
+    min-height: 100vh; }
+
+/*Header*/
+h1 {
+    text-align: center; 
+    align-content: center;
+    justify-content: center; 
+    font-family: "Ribeye Marrow", serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 50px; }
+
+/*Navigation Bar*/
+nav li {
+    list-style-type: none;
+    background-color: #FFDDFD; 
+    margin: 1rem; }
+
+nav a {
+    text-decoration: none;
+    color: black; 
+    padding: 30px; 
+    margin: 0; }
+
+nav a:hover {
+    color: blue;
+    background-color: #FFDDFD; }
+
+nav ul {
+    display: flex; 
+    justify-content: center; 
+    background-color: #FFDDFD; 
+    padding: 20px; 
+    flex-wrap: wrap; }
+
+/*Footer*/
+
+/*Home*/
+
+/*About Me*/
+
+/*Résumé*/
+h1.resume {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px; }
+
+section {
+    text-align: center; }
+
+/*Portfolio*/
+
+/*Contact Me*/
