@@ -127,6 +127,7 @@ section {
 
 /*Portfolio*/
 .exercises {
+    color: white;
     background-color: black; 
     text-align: center;
     align-content: center;
@@ -138,6 +139,7 @@ section {
     border-radius: 8rem; }
 
 .analysis {
+    color: white; 
     background-color: black; 
     text-align: center;
     align-content: center;
@@ -149,6 +151,7 @@ section {
     border-radius: 8rem; }
 
 .research {
+    color: white;
     background-color: black; 
     text-align: center;
     align-content: center;
@@ -160,6 +163,7 @@ section {
     border-radius: 8rem; }
 
 .grant {
+    color: white;
     background-color: black; 
     text-align: center;
     align-content: center;
