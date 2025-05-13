@@ -237,6 +237,9 @@ h2.resumehead {
     margin-left: 3rem;
     margin-right: 3rem; }
 
-a:link {
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active {
     color: #FFF6F4;
     text-decoration: none; }
