@@ -1,49 +1,60 @@
-/*Responsive layout*/
-
 /*Body Across All Pages*/
 body {
     display: grid;
     margin: 0; 
-    min-height: 100vh; }
+    min-height: 100vh; 
+    background-color: #FFF6F4; }
 
 /*Navigation Bar*/
 nav li {
     list-style-type: none;
-    background-color: black; 
-    margin: 10px; }
+    background-color: #86003C; 
+    margin: 50px; }
 
 nav a {
     text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-    color: white; 
-    padding: 35px; 
-    margin: 10px; }
+    padding: 10px; 
+    margin: 10px;
+    border: 10px double #2B0013;
+    border-radius: 20%; 
+    background-color: #86003C; }
 
 nav ul {
     display: flex; 
     justify-content: center; 
-    background-color: black; 
+    background-color: #86003C; 
     padding: 10px;
     margin: 0;
     flex-wrap: wrap; }
 
 /*Footer*/
 footer {
-    color: white; 
-    background-color: black; 
+    color: #FFF6F4;
+    background-color: #86003C; 
     margin: 0;
     width: 100%; 
     padding: 0; }
 
-.left {
+.contact {
+    font-size: 30px;
     text-align: left; 
-    margin: 10px; }
+    margin: 10px; 
+    padding: 0; }
 
-.right {
+.updated {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
     text-align: right;
     margin: 10px; }
 
 /*Home*/
+.home {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; }
+
 h1 {
     text-align: center; 
     align-content: center;
@@ -52,130 +63,177 @@ h1 {
     font-weight: 400;
     font-style: normal; 
     font-size: 50px; 
+    color: #2B0013;
     padding: 5px;
     margin: 0; }
 
-h2.home {
-    text-align: right;
-    margin-top: 20px;
-    margin-right: 7rem; }
-
 img.collage {
-    align-content: center;
-    justify-content: center; }
+    max-width: 100%;
+    height: auto; }
+
+figcaption {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #2B0013;
+    margin: 10px; }
 
 /*About Me*/
 main.aboutme {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr; }
 
 h2.me {
-    font-size: 25px; 
-    margin: 0; 
-    padding: 5px; }
-
-p.me {
-    margin: 0;
-    padding: 5px; }
-
-ul.me {
-    margin: 0;
-    margin-left: 15px;
-    padding: 5px; }
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF6F4;
+    margin: 10px; 
+    padding: 0; }
 
 .basics {
-    border: 1px solid red;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2; 
-    padding: 10px; }
-
-.academics {
-    border: 1px solid red;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2; 
-    padding: 10px; }
-
-.accomplishments {
-    border: 1px solid red;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3; 
-    padding: 10px; }
-
-.career {
-    border: 1px solid red;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3; 
-    padding: 10px; }
-
-/*Résumé*/
-h1.resume {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px; }
-
-section {
-    text-align: center; }
-
-/*Portfolio*/
-.exercises {
-    color: white;
-    background-color: black; 
-    text-align: center;
-    align-content: center;
-    justify-content: center;  
-    border: 1px red dashed;
-    padding: 3rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    border-radius: 8rem; }
-
-.analysis {
-    color: white; 
-    background-color: black; 
-    text-align: center;
-    align-content: center;
-    justify-content: center;  
-    border: 1px red dashed;
-    padding: 3rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    border-radius: 8rem; }
-
-.research {
-    color: white;
-    background-color: black; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#FFF6F4;
+    background-color: #86003C;
     text-align: center;
     align-content: center;
     justify-content: center;   
-    border: 1px red dashed;
-    padding: 3rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    border-radius: 8rem; }
+    border: 10px double #2B0013;
+    border-radius: 7rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    margin: 1rem;
+    padding: 10px; }
 
-.grant {
-    color: white;
-    background-color: black; 
+.academics {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#FFF6F4;
+    background-color: #86003C;
+    text-align: center;
+    align-content: center;
+    justify-content: center; 
+    border: 10px double #2B0013;
+    border-radius: 7rem;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    margin: 1rem;
+    padding: 10px; }
+
+.accomplishments {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#FFF6F4;
+    background-color: #86003C;
+    text-align: center;
+    align-content: center;
+    justify-content: center; 
+    border: 10px double #2B0013;
+    border-radius: 7rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+    margin: 1rem;
+    padding: 10px; }
+
+.career {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#FFF6F4;
+    background-color: #86003C;
+    text-align: center;
+    align-content: center;
+    justify-content: center; 
+    border: 10px double #2B0013;
+    border-radius: 7rem;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+    margin: 1rem;
+    padding: 10px; }
+
+.aboutmeimg {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; }
+
+img.headshot {
+    border: 10px double #2B0013;
+    border-radius: 7rem;
+    max-width: 100%; 
+    max-height: 100%;  
+    object-fit: contain; }
+
+/*Résumé*/
+main.resume {
+    background-color: white;
+    border: 1px solid black; 
+    margin: 50px; 
+    padding: 15px; }
+
+h1.resume {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px; 
+    margin: 5px; }
+
+h2.resumehead {
+    text-align: center; 
+    font-size: medium; }
+
+/*Portfolio*/
+.exercises {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #86003C; 
     text-align: center;
     align-content: center;
     justify-content: center;  
-    border: 1px red dashed;
+    border: 10px double #2B0013;
+    border-radius: 7rem;
     padding: 3rem;
     margin-left: 3rem;
-    margin-right: 3rem;
-    border-radius: 8rem; }
+    margin-right: 3rem; }
+
+.analysis {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #86003C; 
+    text-align: center;
+    align-content: center;
+    justify-content: center;  
+    border: 10px double #2B0013;
+    border-radius: 7rem;
+    padding: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem; }
+
+.research {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #86003C; 
+    text-align: center;
+    align-content: center;
+    justify-content: center;   
+    border: 10px double #2B0013;
+    border-radius: 7rem;
+    padding: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem; }
+
+.grant {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #86003C; 
+    text-align: center;
+    align-content: center;
+    justify-content: center;  
+    border: 10px double #2B0013;
+    border-radius: 7rem;
+    padding: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem; }
 
 a:link {
-    color: white;
+    color: #FFF6F4;
     text-decoration: none; }
-
-/*Contact Me*/
