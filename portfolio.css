@@ -11,7 +11,10 @@ nav li {
     background-color: #86003C; 
     margin: 50px; }
 
-nav a {
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active {
     text-decoration: none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
