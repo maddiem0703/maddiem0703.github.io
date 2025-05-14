@@ -176,8 +176,7 @@ img.headshot {
 /*Résumé*/
 main.resume {
     background-color: white;
-    border: 10px double #2B0013;
-    border-radius: 7rem; 
+    border: 10px double #2B0013; 
     margin: 50px; 
     padding: 15px; }
 
