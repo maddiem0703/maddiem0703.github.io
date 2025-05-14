@@ -71,6 +71,8 @@ h1 {
     margin: 0; }
 
 img.collage {
+    border: 10px double #2B0013;
+    border-radius: 7rem
     max-width: 100%;
     height: auto; }
 
@@ -174,7 +176,8 @@ img.headshot {
 /*Résumé*/
 main.resume {
     background-color: white;
-    border: 1px solid black; 
+    border: 10px double #2B0013;
+    border-radius: 7rem; 
     margin: 50px; 
     padding: 15px; }
 
